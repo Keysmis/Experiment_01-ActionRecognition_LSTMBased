@@ -29,11 +29,9 @@ class ResearchModels():
         `model` = one of:
             lstm
             crnn
-            mlp
             conv_3d
         `nb_classes` = the number of classes to predict
         `seq_length` = the length of our video sequences
-        `saved_model` = the path to a saved Keras model to load
         """
 
         # Set defaults.
